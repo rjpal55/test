@@ -7,5 +7,6 @@
 
 year = input("Enter a year:")
 year = int(year)
-print(f"Year entered is {year}")
-print (type(year))
+print(f"Year entered is {year}", type(year))
+print("Year entered is", year, type(year) )
+print(dir(year))
